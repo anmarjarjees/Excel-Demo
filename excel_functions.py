@@ -21,7 +21,7 @@ def total(any_list):
     return total
 
 # 2: Average:
-# As a programmer, you have the choice to make this function indepenet 
+# As a programmer, you have the choice to make this function independent 
 # By finding the total and the average within the same function
 # the other choice, we can make this function using the total function (this function will depend on total functions)
 def average(any_list):
@@ -32,10 +32,11 @@ def average(any_list):
     # or using this short way
     # return (total(any_list)/len(any_list))
 
+# Your Task:
+# ----------
+# 3: Max:
 
-# 3: Max
-
-# 2: Min
+# 2: Min:
 
 
 
