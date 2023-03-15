@@ -8,7 +8,7 @@ from colorama import Fore
 # Part 1: ask the user to input their numbers:
 # Colorama: Fore.LIGHTBLUE_EX`
 numbers = input(Fore.LIGHTBLUE_EX +
-                "Please enter your list of numbers as comma seperated values (csv): ")
+                "Please enter your list of numbers as comma separated values (csv): ")
 
 # printing the values
 # print(numbers) "90,92,88,84"
@@ -21,7 +21,7 @@ numbers = input(Fore.LIGHTBLUE_EX +
 # Step 1: We need to convert this string into a list ????
 # str.split([chars]) => Return a list of the words in the string
 # split() method will "return" a list
-# Please be carfull that only one character has to be exist between each number which is the ","
+# Please be careful that only one character has to be exist between each number which is the ","
 
 numbers_list = numbers.split(",")
 # test:
